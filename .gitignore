@@ -1,0 +1,60 @@
+# Ignore build artifacts
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.dylib
+*.bin
+build/
+debug/
+release/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.pid
+*.gz
+
+# Ignore IDE/project specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*~
+
+# Ignore generated files by editors
+tags
+TAGS
+*.orig
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore test result files
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore generated documentation files
+docs/
+
+# Ignore CMake artifacts if used
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+cmake_install.cmake
+Makefile
+
+# Ignore auto-generated makefiles and config headers
+Makefile.in
+Makefile.am
+config.h
+config.log
+config.status
+
+#Ignore documents
+.pdf
