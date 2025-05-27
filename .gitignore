@@ -57,5 +57,5 @@ config.log
 config.status
 
 #Ignore documents
-.pdf
-.dat
+*.pdf
+*.dat
